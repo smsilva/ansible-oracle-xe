@@ -1,0 +1,16 @@
+---
+- name: system update
+  yum:
+    name: "*"
+    state: latest
+
+- name: install required software
+  yum:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - unzip
+    - libaio
+    - bc
+    - net-tools
+    - vim
