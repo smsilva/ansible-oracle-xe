@@ -1,4 +1,4 @@
 ---
 - hosts: oracle
   roles:
-    - smsilva.oracle-xe
+    - smsilva.ansible-oracle-xe
