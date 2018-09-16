@@ -5,4 +5,3 @@ install_dir_remote: "/install/oracle"
 oracle_xe_install_log_file: "xe_silent_install.log"
 oracle_xe_config_log_file: "xe_silent_config.log"
 oracle_xe_response_file: "{{ install_dir_remote }}/xe.rsp"
-
